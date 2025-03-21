@@ -1,0 +1,19 @@
+body{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+img {
+    border-color: white;
+    border: solid 2px;
+}
+a{
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+.parag{
+    font-size: 90%;
+}
