@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(129, 128, 128);
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+article{
+    background-color: lightgrey;
+}
+article > aside{
+    background-color: rgb(145, 145, 145);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
