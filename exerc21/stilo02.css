@@ -7,9 +7,13 @@ header{
     padding: 10px;
     margin: 10px;
 }
+h1{
+    box-shadow: inset 3px 3px 10px black;
+}
 nav{
     background-color: rgb(129, 128, 128);
     padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
 }
 nav > a{
     text-decoration: none;
@@ -33,5 +37,8 @@ footer{
     color: white;
     text-align: center;
     padding: 1px;
+    margin: 0px;
+}
+footer > p{
     margin: 0px;
 }
