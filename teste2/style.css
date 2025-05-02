@@ -1,7 +1,31 @@
-header h1{
-    color: red;
-    font-size: 70px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* altera a forma como a largura e altura de um elemento são calculadas, incluindo o preenchimento (padding) e a borda (border) dentro do espaço definido para a largura e altura do elemento */
 }
-p{
-    color: blue;
+
+body{
+    background-color: #f4f0ea;
+    color: blueviolet;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    padding: 2rem; /* unidade de medida relativa para adequar a resolução da tela do usuario */
+    background-color: rgba(0, 0, 0, 0.815);
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* define o tamanho do espaço entre linhas e colunas em layouts flexbox , grid ou multicolunas */
+}
+
+section{
+    
 }
