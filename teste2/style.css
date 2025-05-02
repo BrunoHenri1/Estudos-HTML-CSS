@@ -15,7 +15,7 @@ body{
 
 header{
     padding: 2rem; /* unidade de medida relativa para adequar a resolução da tela do usuario */
-    background-color: grey;
+    background-color: #c300ff49;
     text-align: center;
 }
 
@@ -134,6 +134,18 @@ button{
     cursor: pointer;
 }
 
-.parag{
-    
+footer{
+    background-color: #c300ff49;
+    padding: 2rem;
+    text-align: center;
+}
+
+.parag-footer{
+
+    color: blueviolet;
+}
+
+footer a{
+    text-decoration: none;
+    color: blueviolet;
 }
